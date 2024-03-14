@@ -6,10 +6,10 @@
 
 #analogClock {
     position: relative;
-    height: 50vh;
-    width: 50vh;
+    height: 60vh;
+    width: 60vh;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     background: url(ClockFace.png) no-repeat;
     background-size: 100%;
     /* border: 2px solid red; */
@@ -60,10 +60,10 @@
 
 #digitalClock {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 20px;
     width: 50vw;
-    height: 50vh;
+    height: auto;
     border: 8px solid #000458;
     color: #03075d;
     font-size: 3rem;
