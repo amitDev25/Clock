@@ -23,19 +23,28 @@ setInterval(() => {
     if (minute < 10) {
         minute = `0${minute}`
     }
+    if (hour < 10) {
+        hour = `0${hour}`
+    }
+    newHTML = `<p>Time is : ${hour} : ${minute} : ${second} AM </p> <p>Date is : ${day} </p>`
+    
+    if (hour == 0) {
+        hour = 12
+        newHTML = `<p>Time is : ${hour} : ${minute} : ${second} AM </p> <p>Date is : ${day} </p>`
 
+    }
     if (hour > 12) {
         hour = hour - 12
         if (hour < 10) {
             hour = `0${hour}`
         }
+
         newHTML = `<p>Time is : ${hour} : ${minute} : ${second} PM </p> <p>Date is : ${day} </p>`
 
     }
-    else {
-        newHTML = `<p>Time is : ${hour} : ${minute} : ${second} AM </p> <p>Date is : ${day} </p>`
+    //     else {
 
-    }
+    //     }
 
     document.getElementById("digitalClock").innerHTML = newHTML
 
