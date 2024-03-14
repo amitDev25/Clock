@@ -30,7 +30,7 @@ setInterval(() => {
     if (hour == 0) {
         hour = 12
         newHTML = `<p>Time is : ${hour} : ${minute} : ${second} AM </p> <p>Date is : ${day} </p>`
-
+ 
     }
     if (hour > 12) {
         hour = hour - 12
