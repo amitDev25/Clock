@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#analogClock {
+    position: relative;
+    height: 50vh;
+    width: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    background: url(ClockFace.png) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid red; */
+}
+
+.needle {
+
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.5%;
+    height: 17%;
+    top: 33.4%;
+    left: 49.45%;
+    /* display: none; */
+}
+
+#minute {
+    width: 1%;
+    height: 23%;
+    top: 27.5%;
+    left: 49.7%;
+    /* displays: none; */
+
+}
+
+#second {
+    width: 0.4%;
+    height: 26%;
+    top: 24.3%;
+    left: 49.9%;
+    /* display: none; */
+
+}
+
+#point {
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    top: 48.85%;
+    left: 48.8%;
+    /* display: none; */
+}
+
+#digitalClock {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 30vw;
+    height: 30vh;
+    border: 15px solid #000458;
+    color: #03075d;
+    font-size: 8rem;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #f9e9d6;
+}
+
+@media only screen and (max-width: 2000px) {
+    #digitalClock {
+        width: 95vw;
+        height: auto;
+        font-size: 1.7rem;
+        padding: 10px;
+        border: 3px solid #000458;
+        gap: 20px;
+
+
+
+    }
+
+    #analogClock {
+        height: 43vh;
+        width: 43vh;
+
+
+    }
+
+
+}
