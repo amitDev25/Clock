@@ -58,6 +58,16 @@
     /* display: none; */
 }
 
+#point2 {
+    width: 1.7%;
+    height: 1.7%;
+    border-radius: 50%;
+    top: 49.52%;
+    left: 49.5%;
+    background-color: white;
+    /* display: none; */
+}
+
 #digitalClock {
     margin: auto;
     margin-top: 30px;
