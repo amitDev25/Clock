@@ -6,7 +6,6 @@ setInterval(() => {
 
 
 
-
     let day = date.toLocaleDateString();
 
     let hrotate = (30 * hour) + (minute / 2)
