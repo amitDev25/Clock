@@ -29,11 +29,11 @@ setInterval(() => {
         if (hour < 10) {
             hour = `0${hour}`
         }
-        newHTML = `<p>The Time is : ${hour} : ${minute} : ${second} PM </p> <p>Today's Date is : ${day} </p>`
+        newHTML = `<p>Time is : ${hour} : ${minute} : ${second} PM </p> <p>Date is : ${day} </p>`
 
     }
     else {
-        newHTML = `<p>The Time is : ${hour} : ${minute} : ${second} AM </p> <p>Today's Date is : ${day} </p>`
+        newHTML = `<p>Time is : ${hour} : ${minute} : ${second} AM </p> <p>Date is : ${day} </p>`
 
     }
 
