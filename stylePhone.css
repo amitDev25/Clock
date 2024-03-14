@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1300px) {
+    #digitalClock {
+        width: 95vw;
+        height: auto;
+        font-size: 1.7rem;
+        padding: 10px;
+        border: 3px solid #000458;
+        gap: 20px;
+
+
+
+    }
+
+    #analogClock {
+        height: 43vh;
+        width: 43vh;
+
+
+    }
+
+
+}
