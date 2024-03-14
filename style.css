@@ -77,11 +77,11 @@
     background-color: #f9e9d6;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 1000px) {
     #digitalClock {
         width: 95vw;
         height: auto;
-        font-size: 1.7rem;
+        font-size: 1rem;
         padding: 10px;
         border: 3px solid #000458;
         gap: 20px;
