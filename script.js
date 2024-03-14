@@ -20,6 +20,9 @@ setInterval(() => {
     if (second < 10) {
         second = `0${second}`
     }
+    if (minute < 10) {
+        minute = `0${minute}`
+    }
 
     if (hour > 12) {
         hour = hour - 12
